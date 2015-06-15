@@ -25,10 +25,9 @@ A lecture by [Neven Jovanović](http://orcid.org/0000-0002-9119-399X), Universit
 - **plugin/** Components that have been developed as extensions to reveal.js
 - **lib/** All other third party assets (JavaScript, CSS, fonts)
 - **images/** Images used
+- **pdf** pdf file in root directory
 
 
 ## License
 
-MIT licensed
-
-Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+Freely available under the [CC-BY license](LICENSE.md).
