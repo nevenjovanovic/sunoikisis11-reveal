@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Sunoikisis - Treebanking</title>
+
+		<meta name="description" content="An Introduction to Treebanking in Greek and Latin">
+		<meta name="author" content="Neven Jovanović">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1>Sunoikisis DC 2015</h1>
+					<h3>Session 11: An Introduction to Treebanking</h3>
+					<p>
+						<small><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a> / neven.jovanovic@ffzg.hr</small>
+					</p>
+<p>
+						<small>University of Zagreb, Faculty of Humanities and Social Sciences<br/><a href="http://www.ffzg.unizg.hr/klafil">Department of Classical Philology</a></small>
+					</p>
+				</section>
+
+				<section>
+					
+					<p>
+His writing is condensed and direct,
+almost austere in places, and is meant to be read rather than
+delivered orally. (...) Only in his speeches does he sometimes fall
+short of the lucidity of the narrative prose; his fondness for
+abstract expressions and the obscurity of his rhetorical antithesis
+often make the passages difficult to understand.
+					</p>
+<p>
+<small>
+<a href="http://www.britannica.com/biography/Thucydides-Greek-historian/Character-studies#toc7240">Encyclopaedia Britannica</a> on Thucydides' style
+</small>
+</p>
+				</section>
+<section>
+					
+					<p class="fragment">
+How does Greek <b>condensed</b> writing look like?  Greek <b>direct</b>
+writing?  <b>Austere</b> writing?  <b>Lucidity</b>?</p>  
+<p class="fragment">What features of the text suggest Thuc. wrote to be <b>read</b> rather than <b>spoken and heard</b>?
+
+					</p>
+<p class="fragment">How do we demonstrate &mdash; show, explain, and teach others to show and explain &mdash;
+Thuc.'s <b>fondness for abstract expressions</b>? <b>Obscure</b> rhetorical antitheses?</p>
+
+				</section>
+<section>
+					
+					<h2>Fondness for abstract expressions?</h2>
+<p class="fragment">Sexual intercourse began<br/>
+In nineteen sixty-three<br/>
+(which was rather late for me) &mdash;<br/>
+Between the end of the Chatterley ban<br/>
+And the Beatles' first LP.<br/>
+<br/>
+Up to then there'd only been<br/>
+A sort of bargaining,<br/>
+A wrangle for the ring,<br/>
+A shame that started at sixteen<br/>
+And spread to everything.</p>
+<p class="fragment"><small>Philip Larkin, Annus Mirabilis</small></p>
+
+				</section>
+<section>
+<h2>Stylistic approaches to Thucydides</h2>
+<p>Source: <a href="http://www.gnomon-online.de/">www.gnomon-online.de</a></p>
+<ul>
+<li>Expressions of time in Thucydides (2014)</li>
+<li>Meta + G y syn + D en griego antiguo: análisis en la lengua lirica y
+  prosa tucididea (2006)</li>
+<li>Parataxe und Hypotaxe bei Thukydides (2003)</li>
+<li>The persuasive style of debates in direct speech in Thucydides
+  (1992)</li>
+<li>El periodo condicional en Tucidides (1992)</li>
+<li>Structure, Style, and Sense in Interpreting Thucydides: The
+  Soldier's Choice (1986)</li>
+</section>
+<section>
+<h2>Stylistic approaches to Thucydides</h2>
+<p>Source: <a href="http://www.gnomon-online.de/">www.gnomon-online.de</a></p>
+<ul>
+<li>Die Rolle der irrealen Bedingungssätze in der Geschichte des
+  griechischen Denkens (1979)</li>
+<li>Grammar, discourse, and style in Thucydides' book 8. (1978)</li>
+<li>The syntax of the participle in Thucydides (1974)</li>
+<li>Untersuchungen zu den Anakoluthen bei Thukykdides (1950)</li>
+</section>
+<section>
+<h2>Stylistic approaches to Thucydides</h2>
+<p>Source: <a href="http://www.gnomon-online.de/">www.gnomon-online.de</a></p>
+<ul>
+<li>Erkennen und Wollen bei Thukydides. Untersuchung über den
+  Sprachgebrauch (1939)</li>
+<li>Der lokale Grundton und die persönliche Eigenart in der Sprache des
+  Thukydides und der älteren attischen Redner (1930)</li>
+<li>Untersuchungen zum Satzbau des Thukydides (1930)</li>
+</ul>
+</section>
+<section>
+<h1>"But &mdash; it is all translated!"</h1>
+</section>
+<section>
+<h2>A look at the Thuc. 1.128</h2>
+<p><a href="http://data.perseus.org/citations/urn:cts:greekLit:tlg0003.tlg001.perseus-grc1:1.128">urn:cts:greekLit:tlg0003.tlg001.perseus-grc1:1.128</a></p>
+</section>
+<section>
+<h2>Hobbes 1629</h2>
+<p>After that Pausanias the Lacedaemonian was recalled by the Spartans from his charge in Hellespont, and having been called in question by them was absolved though he was no more sent abroad by the state, yet he went again into Hellespont in a galley of Hermione as a private man, without leave of the Lacedaemonians, to the Grecian war, as he gave out, but in truth to negotiate with the king, as he had before begun, aspiring to the principality of Greece.</p>
+
+
+</section>
+<section>
+<h2>Jowett 1881</h2>
+<p>When Pausanias the Lacedaemonian was originally summoned by the Spartans to give an account of his command at the Hellespont, and had been tried and acquitted, he was no longer sent out in a public capacity, but he hired a trireme of Hermionè on his own account and sailed to the Hellespont, pretending that he had gone thither to fight in the cause of the Hellenes. In reality he wanted to prosecute an intrigue with the King, by which he hoped to obtain the empire of Hellas.
+</p>
+
+
+</section>
+<section>
+<h2>Hammond 2009</h2>
+<p>When the Spartan Pausanias was originally recalled by the Spartiates from his command in the Hellespont, and put on trial by them but acquitted of the charges against him, he was not sent out again in any official capacity, but on his own initiative he took a trireme from Hermione without Spartan authority and sailed to the Hellespont. His pretence was that he had come to help the Greek war-effort, but in fact he was there to continue the intrigue with the King of Persia which he had already started earlier: his aim was to become the ruler of Greece.</p>
+
+
+</section>
+<section>
+<h2>Mynott 2013</h2>
+<p>After the first occasion when Pausanias the Spartan had been recalled by the Spartiates from his command in the Hellespont and was tried and found not guilty by them, he was no longer sent out in an official capacity; but on his own initiative and without involving the Spartans he took a trireme from the town of Hermione and made a private visit to the Hellespont. His professed reason was to support the Greek cause in the war, but in fact he wanted to pursue an agenda with the Persian King, just as he had tried to do on the first occasion, his ambition being dominion over Greece.</p>
+
+
+</section>
+<section>
+<h2>What if linguistic categories influence perception and cognition?</h2>
+<p>(the "Sapir&ndash;Whorf" hypothesis)</p></section>
+<section>
+<p>having been called in question by them was absolved</p>
+<p class="fragment">had been tried and acquitted</p>
+<p class="fragment">[was] put on trial by them but acquitted of the charges against him</p>
+<p class="fragment">was tried and found not guilty by them</p>
+</section>
+<section>
+<p>as a private man, without leave of the Lacedaemonians</p>
+<p class="fragment">on his own account</p>
+<p class="fragment">on his own initiative [...] without Spartan authority</p>
+<p class="fragment">and without involving the Spartans [...] made a private visit</p>
+</section>
+<section>
+<p>he went again [...] to the Grecian war, as he
+gave out</p>
+<p class="fragment">pretending that he had gone thither to fight in the cause of the Hellenes</p>
+<p class="fragment">His pretence was that he had come to help the
+Greek war-effort</p>
+<p class="fragment">His professed reason was to support the Greek cause in the war</p>
+</section>
+<section>
+<h1>Style: death by a thousand cuts</h1>
+<p>What if our impression of a writer and his world-view is actually shaped by many barely noticed linguistic events?</p>
+</section>
+<section>
+<h1>OK &mdash; how do I analyse style?</h1>
+<p>Or, a bit easier question: how do I analyse syntax?</p>
+</section>
+<section>
+<h2>Traditional syntactic analysis</h2>
+<p><font color="red">he</font> <font color="blue">went</font> <font color="green">again</font> to the Grecian war</p>
+<p class="fragment"><small><font color="red">SUBJECT</font> <font color="blue">PREDICATE</font> <font color="green">ADVERBIAL</font> PREPOSITIONAL OBJECT</small></p>
+</section>
+<section>
+<h1>Thirteen Ways of Looking at a Blackbird</h1>
+<p>Modern linguistics knows many ways to describe syntax of a sentence.</p>
+</section>
+<section>
+<section>
+<h2>All Sentence Components Are Not Created Equal</h2>
+<p>We can represent a hierarchy by which a sentence is organised.</p>
+<p>One way to represent it is a <b>dependency tree</b>.</p>
+</section>
+<section><p><img data-src="images/he-went-1.png" alt="He went to war, dependency tree."></p>
+<p>Made with <a href="http://www.perseids.org/">www.perseids.org</a>.</p>
+</section>
+<section>
+<p>A dependency tree clearly shows the difference between main and subordinate clauses.</p>
+<p><img data-src="images/Clause_trees_3.png" alt="Who is John going to visit, dependency tree."></p>
+<p><small>Source: <a href="https://en.wikipedia.org/wiki/Clause">Wikipedia contributors, "Clause,"</a> Wikipedia, The Free Encyclopedia<br/> (accessed June 15, 2015).</small></p>
+</section>
+</section>
+<section>
+<section>
+<h2>Parts of a dependency tree</h2>
+<p><img width="400" data-src="images/tree.jpeg" alt="Apple dependency tree."></p>
+</section>
+<section>
+<h2>Parts of a dependency tree</h2>
+<ul>
+<li class="fragment">Hierarchy layer (connections)</li>
+<li class="fragment">Morphological annotations (parts of speech)</li>
+<li class="fragment">Syntactical annotations (clause and sentence components)</li>
+</ul>
+</section>
+<section>
+<p><img width="1300" data-src="images/tree-didaxas.png" alt="Thuc. 1, 90 dependency tree."></p>
+<p><small>καὶ ὁ μὲν ταῦτα διδάξας καὶ ὑπειπὼν τἆλλα ὅτι αὐτὸς τἀκεῖ πράξοι ᾤχετο.<br/>So with these instructions given, and intimating that he himself would deal with all other business there, Themistocles set off for Sparta.</small></p>
+</section>
+</section>
+<section data-markdown>
+<script type="text/template">
+## Try it out yourself!
+
+Take a simple Greek sentence and reorder it in a tree structure, with verb dependent on the sentence root (use Perseids, or a piece of paper).
+
+No morphological or syntactical annotations necessary. No theory or guidelines &mdash; this is an experiment.
+
+But note any questions that may arise.
+</script>
+</section>
+<section data-markdown>
+<script type="text/template">
+## Promises of treebanking
+
++ It can be applied to any language (including Greek and Latin) <!-- .element: class="fragment" -->
++ It annotates structure &mdash; not just elements, but relationships between them <!-- .element: class="fragment" -->
++ It can be manipulated by computers <!-- .element: class="fragment" -->
++ Therefore, large quantities of structured linguistic data can be analyzed quickly and consistently (once we have them) <!-- .element: class="fragment" -->
++ Therefore, theories or hypotheses can be tested <!-- .element: class="fragment" -->
++ Therefore... <!-- .element: class="fragment" -->
+</script>
+</section>
+<section data-markdown>
+<script type="text/template">
+## Promises of treebanking 2
+
++ Annotations are language-independent (PRED as a token for predicate can easily be replaced with its Georgian or Bulgarian equivalent) <!-- .element: class="fragment" -->
++ A dependency treebank is reusable (you can use our Pentekontaetia; we can use our Pentekontaetia for a new research question; it can be included in a larger corpus) <!-- .element: class="fragment" -->
++ A dependency treebank is testable (why do you interpret a sentence this way? is such and such pattern really characteristic of the Penetekontaetia?) <!-- .element: class="fragment" -->
++ Therefore... <!-- .element: class="fragment" -->
+</script>
+</section>
+<section data-markdown>
+<script type="text/template">
+## Promises of treebanking 3
+
++ Treebanks enable us (and machines!) to discover, compare, share linguistic data <!-- .element: class="fragment" -->
++ Treebanks enable a new form of close reading: understand language better, interpret text in a new way <!-- .element: class="fragment" -->
++ Treebanks enable a new way of learning: if you can produce a treebank, you understand something about a sentence structure (of the language, of the text) <!-- .element: class="fragment" -->
+</script>
+</section>
+<section>
+<h2>Materials and tools</h2>
+<ul>
+<li>Corpora: <a href="http://proiel.github.io/">PROIEL</a>, Perseus (and Sunoikisis!)</li>
+<li>Annotation and review: <a href="http://www.perseids.org/">Perseids</a> and <a href="http://alpheios.net/">Alpheios</a></li>
+<li>Analysis (querying): <a href="http://annis.perseus.tufts.edu/">Perseus Annis</a></li>
+<li>Sample queries for Annis: <a href="http://www.ffzg.unizg.hr/klafil/dokuwiki/doku.php/z:perseus-annis">Perseus Annis Adventures</a></li>
+</ul>
+
+</section>
+<section data-markdown>
+<script type="text/template">
+## Possible questions
+
+We can start from the simplest things!
+
++ How do we recognize simple sentences? What is a form, or a skeleton, of a simple (Thucydidean) sentence?
++ Same tree pattern, different grammar &mdash; do such sentences feel similar?
++ Compare tree patterns in different discourse, or different parts of text
++ Analyse trees in passages which are characteristically "condensed", "obscure", "austere", "lucid", "abstract"
+</script>
+</section>
+<section data-markdown>
+<script type="text/template">
+## Possible questions
+
++ Can we extract (Thucydidean) grammar from trees? ("learn a grammar from
+  examples")
++ Greek... and beyond: how do Thucydides' trees look in English, Italian, German, Bulgarian, Georgian, French, Croatian?
+</script>
+</section>
+<section>
+<p>
+διαφερόντως γὰρ δὴ καὶ τόδε ἔχομεν ὥστε τολμᾶν τε οἱ αὐτοὶ μάλιστα καὶ περὶ ὧν ἐπιχειρήσομεν ἐκλογίζεσθαι
+</p>
+<p><small>For also in this we excel others, daring to undertake as much as any<br/> and yet examining what we undertake</small></p>
+<p><small>Thuc. 2.40</small></p>
+</section>
+
+<section>
+					<h1>Sunoikisis DC 2015</h1>
+					<h3>Session 11: An Introduction to Treebanking</h3>
+					<p>
+						<small><a href="http://orcid.org/0000-0002-9119-399X">Neven Jovanović</a> / neven.jovanovic@ffzg.hr</small>
+					</p>
+<p>
+						<small>University of Zagreb, Faculty of Humanities and Social Sciences<br/><a href="http://www.ffzg.unizg.hr/klafil">Department of Classical Philology</a></small>
+					</p>
+				</section>
+
+				
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
