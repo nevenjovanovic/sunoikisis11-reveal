@@ -1,13 +1,15 @@
-# Sunoikisis DC 2015 Session 11: An Introduction to Treebanking
+# Sunoikisis DC 2015 Session 11: An Introduction to Treebanking and other lectures
 
 
-A lecture by [Neven Jovanović](http://orcid.org/0000-0002-9119-399X), University of Zagreb, Faculty of Humanities and Social Sciences, Department of Classical Philology.
+A lecture by [Neven Jovanović](http://orcid.org/0000-0002-9119-399X), University of Zagreb, Faculty of Humanities and Social Sciences, Department of Classical Philology. And a few more lectures with reveal: on Nikola Modruški (TeMrežaH, Zagreb 2015), on Croatian and Tyrolean neo-Latin authors (IANLS Vienna 2015).
 
 
 
 
 #### Live site
 - [Lecture slides](http://croala.ffzg.unizg.hr/sunoikisis/sunoikisis-treebanking.html): croala.ffzg.unizg.hr.
+- [Modruški slides](http://croala.ffzg.unizg.hr/sunoikisis/modruski-izdanje.html)
+- [IANLS Vienna 2015 slides](http://croala.ffzg.unizg.hr/sunoikisis/jovanovic-ianls-descriptorum.html)
 
 ## Source on Github
 
