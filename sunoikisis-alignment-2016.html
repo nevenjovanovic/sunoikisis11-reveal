@@ -89,7 +89,8 @@
 </section>
 <section>
 					
-  <h2>A strategy in automated translation (reusable, machine-supported), used mostly for technical translation</h2>
+  <h2>A strategy in automated translation</h2>
+  <p>reusable, machine-supported, used mostly for technical translation</p>
 </section>
 <section>
 <p>
@@ -131,7 +132,7 @@
   <h2>Exemplo discimus!</h2>
 </section>
 <section>
-  <p>More pragmatically, turn to our pedagogical advantage the fact that a lot of Greek and Latin is today read in translation, or with a translation at hand.</p>
+  <p>More pragmatically,<br/>turn to our pedagogical advantage the fact that a lot of Greek and Latin is today read in translation,<br/>or with translation at hand.</p>
 </section>
 <section>
   <p>Also,</p>
@@ -190,8 +191,7 @@
   <h1>Modelling translation</h1>
   <h3>with <a href="https://www.w3.org/RDF/">RDF</a></h3>
 </section>
-<section><pre>
-  <code>
+<section><pre><code>
 
 http://croala.ffzg.unizg.hr/ghlh/translation-source/10344
     croala:wordform "λέγεις"@grc ;
@@ -206,7 +206,63 @@ http://croala.ffzg.unizg.hr/ghlh/translation-source/10356
   </code></pre>
 </section>
 <section>
+  <h1>Querying RDF of aligned texts</h1>
+  <h3>with <a href="https://jena.apache.org/tutorials/sparql.html">SPARQL</a></h3>
+</section>
+<section>
+  <p>Query: show all Croatian translation equivalents of καὶ, counting occurrences of each equivalent.
+  <pre><code>
+
+arq --data ghlh-rdf/ghlh-rdf.ttl --query kai4.rq
+
+# contents of file kai4.rq:
+
+SELECT ?hrvr (COUNT(?hrv) AS ?brhrvr)
+WHERE
+{
+?id ?p "καὶ"@grc .
+?id ?pp ?hrv .
+?hrv c:wordform ?hrvr .
+}
+GROUP BY ?hrvr
+ORDER BY ?brhvr
+
+  </code></pre>
+  <p><small>A SPARQL query in file <tt>kai4.rq</tt> (using <tt>arq</tt>).</small></p>
+</section>
+<section>
+  <pre><code>
+-------------------------
+| hrvr         | brhrvr |
+=========================
+| "i"          | 59     |
+| "a"          | 6      |
+| "te"         | 4      |
+| ","          | 2      |
+| "."          | 1      |
+| "A"          | 1      |
+| "I"          | 1      |
+| "No"         | 1      |
+| "djeda"      | 1      |
+| "drukčije"   | 1      |
+| "između"     | 1      |
+| "kako"       | 1      |
+| "naslonjaču" | 1      |
+| "oca"        | 1      |
+| "onima"      | 1      |
+| "osamdeset"  | 1      |
+| "s"          | 1      |
+| "stotinu"    | 1      |
+| "također"    | 1      |
+-------------------------
+  </code></pre>
+    <p><small>Result of SPARQL query from file <tt>kai4.rq</tt>.</small></p>
+</section>
+<section>
   <h1>Homework</h1>
+</section>
+<section>
+  <p>Choose a sentence (preferably in Greek or Latin) and its translation (existing one, or the one you make yourself). Using Perseids ("New Text Alignment"), align words from the source with equivalents in the target. Submit to the <em>Zagreb Homer 2015</em> board for review and credit points.</p>
 </section>
 <section>
   <h2>&#10087;</h2>
